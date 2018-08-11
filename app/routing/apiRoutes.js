@@ -6,13 +6,13 @@ var friends = require("../data/friends.js");
 module.exports = function(app) {
 
     // get function grabbing the array of friends
-    app.get("/data/friends", function(req, res) {
+    app.get("/api/friends", function(req, res) {
         res.json(friends);
     });
 
     // post function where we take user's input and calculate the difference
     // between user's score and friend's score
-    app.post("data/friends", function(req, res) {
+    app.post("/api/friends", function(req, res) {
 
         // user's input
         var userInput = req.body;
