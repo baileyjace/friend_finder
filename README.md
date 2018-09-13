@@ -1,8 +1,8 @@
-# friend_finder
+# Friend Finder
 
-Ran into a ton of issues with this very last minute so it's not deployable and I'm not even sure it works. Github pages won't display it
-and I don't know why. I tried deploying it to Heroku and got this error, tried googling for help and I just have no idea. 
+Compatibility-based "FriendFinder" application, Adventure Time style! It is a full-stack site that takes in results from users' surveys, then compares their answers with those from other users. The app will then display the name and picture of the user with the best overall match. Uses Express to handle routing.
 
-![wtf](https://github.com/baileyjace/friend_finder/blob/master/images/Capture.PNG?raw=true)
-
-
+## To Do
+* Styling and UI elements
+* Make it actually work lmao
+* Deploy to Heroku
